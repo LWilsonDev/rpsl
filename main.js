@@ -62,10 +62,13 @@ function calculateResult(playerIndex){
   // Find word for the array result
   let resultWord = resultWords[userResult];
   console.log(resultWord);
-  //showimage(userWord, compWord );
+  showImage(playerWord, compWord);
   return resultWord;
 }
 
-//function showimage(a, b){
-//  $()
-//}
+function showImage($playerWord, $compWord){
+
+  $('#userTurn').addClass($playerWord.toLowerCase());
+  $('#computerTurn').addClass($compWord.toLowerCase());
+
+}

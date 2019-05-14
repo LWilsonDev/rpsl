@@ -6,11 +6,11 @@
 
 }
 
-.lizard_hand {
+.lizard {
   background-color: black;
   background-image: url('http://cdn.marketplaceimages.windowsphone.com/v8/images/695d55c3-4389-4702-a82d-ad4d71af624b?imageType=ws_icon_medium');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 80%;
   background-position: center;
 
 }
