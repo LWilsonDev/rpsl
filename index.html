@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css">
+    <link rel='stylesheet' href='style.css'/>
+    <title>Rock, Paper, Scissors, Lizard, Spock!</title>
+  </head>
+  <body>
+
+    <h1>Rock, Paper, Scissors, Lizard, Spock</h1>
+
+    <div class="row flex-spaces">
+
+        <div class='choice' id='userTurn'></div>
+
+    
+          <div class='choice' id='computerTurn'></div>
+
+    </div>
+
+
+    <div class='result-box' id='result'></div>
+
+    <button class='btn' id='rock' data-index="0">Rock</button>
+    <button class='btn' id='paper' data-index="1">Paper</button>
+    <button class='btn' id='scissors' data-index="2">Scissors</button>
+    <button class='btn' id='lizard' data-index="3">Lizard</button>
+    <button class='btn' id='spock' data-index="4">Spock</button>
+<h1 id='demo'></h1>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src='main.js'></script>
+  </body>
+</html>

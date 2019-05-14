@@ -1,0 +1,16 @@
+
+.choice {
+  height: 200px;
+  width: 40%;
+  border: 1px solid black;
+
+}
+
+.lizard_hand {
+  background-color: black;
+  background-image: url('http://cdn.marketplaceimages.windowsphone.com/v8/images/695d55c3-4389-4702-a82d-ad4d71af624b?imageType=ws_icon_medium');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
